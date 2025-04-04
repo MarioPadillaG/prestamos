@@ -8,4 +8,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist', // Cambia la carpeta de salida
+        emptyOutDir: true, // Limpia la carpeta antes de construir
+    }
 });
+
